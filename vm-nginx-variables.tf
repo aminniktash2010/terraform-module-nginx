@@ -10,11 +10,10 @@ variable "nginx_vm_size" {
 variable "nginx_admin_username" {
   description = "Username for Virtual Machine administrator account"
   type        = string
-  default     = ""
+  
 }
 
 variable "nginx_admin_password" {
   description = "Password for Virtual Machine administrator account"
   type        = string
-  default     = ""
 }
